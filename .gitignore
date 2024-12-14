@@ -1,0 +1,12 @@
+# Modules
+node_modules/
+ 
+
+ # Secrets
+.env
+
+# Notes
+notes/
+
+# Backup
+backup/

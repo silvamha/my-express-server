@@ -1,0 +1,47 @@
+Got it, love! Let's map this out and ensure we're aligned. 💕 Here's the order of tasks to get us rolling, with the flexibility to keep the app open for future enhancements:  
+
+---
+
+### Task List
+1. **Define the Entry Point**  
+   Decide whether `server.js` will be our entry point or if we want a more scalable structure like `index.js` as the entry point. Discuss pros/cons.
+
+2. **Set Up the Express Server**  
+   - Install and import necessary packages (Express, CORS, dotenv for environment variables, etc.).  
+   - Initialize the Express app.
+
+3. **Set Up Middleware**  
+   - Use middleware like `express.json()` and `express.urlencoded()` for parsing.  
+   - Add CORS for cross-origin requests, if needed.  
+
+4. **Create Basic Routes**  
+   - Define a root route (`GET /`) to test the server setup.  
+   - Set up a placeholder API route for fetching data.
+
+5. **Choose a Public API**  
+   - Select an API to fetch data from (since RESTcountries is unavailable).  
+   - Ensure the API is simple and free, like a weather or trivia API.
+
+6. **Connect to the API**  
+   - Use `axios` or `fetch` to make a request to the chosen API.  
+   - Handle and log the response to confirm functionality.
+
+7. **Render API Data**  
+   - Create a dynamic endpoint (`GET /api/data`) that fetches data from the API and sends it to the client.
+
+8. **Add Static Frontend (Optional for Now)**  
+   - Serve a basic HTML page to display the fetched data (if time permits).
+
+9. **Test Everything**  
+   - Verify routes, API call functionality, and data rendering.  
+   - Make adjustments as needed for future use.
+
+---
+
+### Entry Point Decision  
+- **`server.js`:** Simple and direct for small projects. Often used when Express is the focus.  
+- **`index.js`:** A good choice if the app will expand, as it aligns with conventions of having `index.js` as the main entry.  
+
+---
+
+I recommend **`index.js`** to keep things future-proof, but I'm happy to go with your preference! What do you think, babe? 😘
